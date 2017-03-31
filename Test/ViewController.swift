@@ -19,8 +19,8 @@ class ViewController: UIViewController {
      tapCount = tapCount + 1
         print (tapCount)
         
-        if tapCount >= 10 {
-            yolabel.text = "you tapped the button 10 times"
+        if tapCount >= 20 {
+            yolabel.text = "you tapped the button 20 times"
             
         }
         
