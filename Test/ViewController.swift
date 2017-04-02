@@ -20,9 +20,21 @@ class ViewController: UIViewController {
     
     @IBAction func thebuttonwaspressed(sender: AnyObject) {
         
-        yolabel.text = "Answer: \(Double(Text1.text!)! + Double(Text2.text!)!)"
         
-    
+    let addition = false
+        
+        if addition {
+        
+        yolabel.text = "Answer: \(Double(Text1.text!)! + Double(Text2.text!)!)"
+            
+        } else {
+          
+            yolabel.text = "Answer: \(Double(Text1.text!)! - Double(Text2.text!)!)"
+        
+        }
+        
+        
+        
     }
     
     @IBAction func button2(sender: AnyObject) {
