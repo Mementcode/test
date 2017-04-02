@@ -12,17 +12,16 @@ class ViewController: UIViewController {
   
     @IBOutlet weak var yolabel: UILabel!
     
-    var tapCount = 0
+    @IBOutlet weak var Text1: UITextField!
+   
+    @IBOutlet weak var Text2: UITextField!
+
+    
     
     @IBAction func thebuttonwaspressed(sender: AnyObject) {
         
-     tapCount = tapCount + 1
-        print (tapCount)
-        
-        if tapCount >= 20 {
-            yolabel.text = "you tapped the button 20 times"
-            
-        }
+     print (Text1.text!)
+     print (Text2.text!)
         
     }
     
